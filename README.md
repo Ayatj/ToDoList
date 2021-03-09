@@ -30,7 +30,7 @@ This program is menu-driven. User will be presented with available options corre
 
 #Class Diagram
 
-![classdiagram](screenshoot/classdiagram.png)
+![diagram1](screenshoot/digram1.png)
 
 
 ## Usage
@@ -41,28 +41,29 @@ When user will run the program, main menu of the program will be shown to the us
 
 ![example1](screenshoot/example1.png)
 
-If user types number [1] and press ENTER key, the application will display the title of the tasks inside the file.
+If user types number [1] and press ENTER key, the application will display the tasks inside the file sorted by project or by date.
 
 
 
-![example2](screenshoot/example2.png)
+![subproject](screenshoot/sortbyproject.png)
+![subproject2](screenshoot/sortbydate.png)
 
 If user types number [2] and press ENTER key, the application will prompt the user to enter the required fields of a task to add in the task list.
 
 
-![example3](screenshoot/example3.png)
+![add](screenshoot/add.png)
 
 
 If user types number [3] and press ENTER key, the application will display the list of all previously saved tasks  and user has to select a task to perform any update, to mark as done or to remove.
 
 
-![example4](screenshoot/example4.png)
+![edit](screenshoot/edit.png)
 
 
 If user types number [4] and press ENTER key, the application will save data and quit
 
 
-![example5](screenshoot/example5.png)
+![example5](screenshoot/save.png)
 
 
 # ToDoList

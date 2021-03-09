@@ -8,14 +8,18 @@ public class Task {
     private String title;
     private LocalDate dueDate;
     private boolean done;
+    private String project;
+
 
     /**  Creating an object of Task class*/
 
-    public Task (String title, LocalDate dueDate, boolean done) {
+    public Task (String title, LocalDate dueDate, boolean done, String project) {
         this.title = title;
         this.dueDate = dueDate;
         this.done = done;
+        this.project=project;
     }
+
     /**
      * A method to get the task title
      * @return a String containing the title of a task
@@ -48,6 +52,15 @@ public class Task {
 
     public void setDone(boolean done) {
         this.done = done;
+    }
+
+
+    public String getProject() {
+        return project;
+    }
+
+    public void setProject(String project) {
+        this.project = project;
     }
 
     @Override
