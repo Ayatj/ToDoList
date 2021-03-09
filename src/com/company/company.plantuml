@@ -5,8 +5,16 @@ title __COMPANY's Class Diagram__\n
   namespace com.company {
     class com.company.Main {
         {static} + main()
+        {static} - addTask()
+        {static} - addToMap()
+        {static} - displayByDate()
+        {static} - displayByProject()
+        {static} - displayHeader()
+        {static} - displayTasks()
+        {static} - editTask()
         {static} - getTasks()
         {static} - printIntro()
+        {static} - saveTasks()
     }
   }
   
@@ -15,13 +23,16 @@ title __COMPANY's Class Diagram__\n
     class com.company.Task {
         - done : boolean
         - dueDate : LocalDate
+        - project : String
         - title : String
         + Task()
         + getDueDate()
+        + getProject()
         + getTitle()
         + isDone()
         + setDone()
         + setDueDate()
+        + setProject()
         + setTitle()
         + toString()
     }
