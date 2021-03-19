@@ -1,0 +1,8 @@
+2021-03-20;quiz;true;sda
+2021-03-22;quiz 2;false;sda
+2020-04-04;Running;true;Sport
+2012-12-12;Swimming;false;Sport
+2022-05-05;Gym;false;Sport
+2020-03-22;reading;false;study
+2012-12-12;Clean;false;House
+1990-11-16;running;true;sport

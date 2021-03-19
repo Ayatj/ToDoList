@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-18T22:32:23" hostname="SDA-Lund-63-mbpro" time="0.046">
+  <properties/>
+  <testcase name="Display Task Test" classname="test" time="0.023"/>
+  <testcase name="Add Task Test" classname="test" time="0.001"/>
+  <testcase name="Get Task Test" classname="test" time="0.002"/>
+  <testcase name="Edi Task Test" classname="test" time="0.014"/>
+  <system-out><![CDATA[-----------------------------------------------------------------------------
+   Project                           Task             Due Date isDone
+-----------------------------------------------------------------------------
+     sport                       swimming           2020-03-06     X
+     sport                        running           2020-03-07     X
+  shopping                           milk           2020-03-08     X
+  shopping                         banana           2020-03-09     X
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+   Project                           Task             Due Date isDone
+-----------------------------------------------------------------------------
+     sport                            gym           2020-03-06     X
+     sport                        running           2020-03-07     X
+  shopping                           milk           2020-03-08     X
+-----------------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
