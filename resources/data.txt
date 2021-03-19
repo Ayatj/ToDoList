@@ -1,2 +1,0 @@
-2003-03-22;student;false
-1990-11-16;ayat;false
