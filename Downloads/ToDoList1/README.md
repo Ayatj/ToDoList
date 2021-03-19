@@ -31,14 +31,15 @@ This program is menu-driven. User will be presented with available options corre
 
 # Class Diagram
 
-![diagram1](screenshoot/digram1.png)
+![diagram1](screenshoot/diagram1.png)
 
 ## Developers
 - Makes use of a build tool.
 - The headings on the readme are on now.
 - Extracting methods from main into its own class.
-- test methods.
-- separate methods.
+- Test methods.
+- Separate methods.
+- Update diagram class.
 
 ## Usage
 ### Main menu

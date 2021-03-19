@@ -31,13 +31,18 @@ title __TODOLIST's Class Diagram__\n
 
   namespace toDoList {
     class toDoList.ToDo {
+        {static} + EditTaskDate()
+        {static} + EditTaskDone()
+        {static} + EditTaskTitle()
         {static} + addTask()
         {static} + addToMap()
+        {static} + deleteTask()
         {static} + displayByDate()
         {static} + displayByProject()
         {static} + displayHeader()
         {static} + displayTasks()
         {static} + editTask()
+        {static} + getTask()
         {static} + getTasks()
         {static} + printIntro()
         {static} + saveTasks()

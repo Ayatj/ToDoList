@@ -60,7 +60,7 @@ public class ToDo {
         }
         System.out.println("-----------------------------------------------------------------------------");
     }
-
+    // print Header
     public  static void displayHeader() {
         System.out.println("-----------------------------------------------------------------------------");
         System.out.printf("%10s %30s %20s %5s", "Project", "Task", "Due Date", "isDone");
@@ -124,23 +124,23 @@ public class ToDo {
             }
         }
     }
-
+      // Edit the task status
     public static void EditTaskDone(Task taskToBeEdited, boolean isDone) {
         taskToBeEdited.setDone(isDone);
     }
-
+      // Edit task title
     public static void EditTaskTitle(Task taskToBeEdited, String newTitle) {
         taskToBeEdited.setTitle(newTitle);
     }
-
+      // Edit Task Date
     public static void EditTaskDate(String in, Task taskToBeEdited) {
         taskToBeEdited.setDueDate(LocalDate.parse(in));
     }
-
+    // method to delete task
     public static void deleteTask(Map<String, List<Task>> project2Task, String tmpProject, Task taskToBeEdited) {
         project2Task.get(tmpProject).remove(taskToBeEdited);
     }
-
+    // search throw the tasks of the project to find the target task
     public static Task getTask(Map<String, List<Task>> project2Task, String tmpProject, String tmpValue, Task taskToBeEdited) {
         if (!project2Task.containsKey(tmpProject))
             return  taskToBeEdited;
@@ -171,7 +171,7 @@ public class ToDo {
             System.out.println(e);
         }
     }
-
+    // method to get task
     public static void getTasks(Map<String, List<Task>> taskMap) throws FileNotFoundException {
         File myFile = new File("/Users/ayatjabali/Downloads/ToDoList1/src/main/java/toDoList/data.txt");
         Scanner readFile = new Scanner(myFile);
@@ -191,7 +191,7 @@ public class ToDo {
 
         }
     }
-
+       // add task to the map
     public static void addToMap(Map<String, List<Task>> taskMap, Task task) {
         if (taskMap.containsKey(task.getProject())) {
             taskMap.get(task.getProject()).add(task);
